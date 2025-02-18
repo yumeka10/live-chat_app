@@ -1,0 +1,18 @@
+current directory: /Users/yanoyumeka/Desktop/Ruby apps/live-chat-rails/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/yanoyumeka/.rbenv/versions/3.4.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/yanoyumeka/Desktop/Ruby apps/live-chat-rails/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250211-77000-32a6wa sitelibdir\=./.gem.20250211-77000-32a6wa clean
+
+current directory: /Users/yanoyumeka/Desktop/Ruby apps/live-chat-rails/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250211-77000-32a6wa sitelibdir\=./.gem.20250211-77000-32a6wa
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/yanoyumeka/Desktop/Ruby apps/live-chat-rails/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250211-77000-32a6wa sitelibdir\=./.gem.20250211-77000-32a6wa install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250211-77000-32a6wa/racc
+
+current directory: /Users/yanoyumeka/Desktop/Ruby apps/live-chat-rails/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250211-77000-32a6wa sitelibdir\=./.gem.20250211-77000-32a6wa clean
