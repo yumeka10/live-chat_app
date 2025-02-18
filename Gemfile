@@ -1,3 +1,5 @@
+ruby '3.4.1'
+
 source "https://rubygems.org"
 
 gem "rails", "~> 8.0.1"
@@ -9,7 +11,7 @@ end
 
 # Use PostgreSQL in production (Heroku)
 group :production do
-  gem "pg"
+  gem "pg", "~> 1.2"
 end
 
 # Use the Puma web server

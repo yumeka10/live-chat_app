@@ -314,7 +314,7 @@ DEPENDENCIES
   debug
   devise (~> 4.9, >= 4.9.4)
   devise_token_auth (~> 1.2, >= 1.2.5)
-  pg
+  pg (~> 1.2)
   puma (>= 5.0)
   rack-cors
   rails (~> 8.0.1)
