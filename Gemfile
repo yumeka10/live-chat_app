@@ -7,6 +7,7 @@ gem "rails", "~> 8.0.1"
 # Use sqlite3 in development and test
 group :development, :test do
   gem "sqlite3", ">= 2.1"
+  gem 'dotenv-rails'
 end
 
 # Use PostgreSQL in production (Heroku)
