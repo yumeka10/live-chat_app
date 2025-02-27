@@ -7,11 +7,18 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins '*'
+    origins 'https://live-chat-app-a022a20a842b.herokuapp.com'  # 本番環境
 
     resource "*",
       headers: :any,
       expose: ['access-token', 'expiry', 'token-type', 'uid', 'client'],
+      methods: [:get, :post, :put, :patch, :delete, :options, :head]
+  end
+
+  allow do
+    origins 'http://localhost:3000', '127.0.0.1:3000'  # 開発環境
+    resource "*",
+      headers: :any,
       methods: [:get, :post, :put, :patch, :delete, :options, :head]
   end
 end
