@@ -29,6 +29,9 @@ gem "solid_cache"
 gem "solid_queue"
 gem "solid_cable"
 
+# Redis for Action Cable in production
+gem 'redis'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
