@@ -2,7 +2,7 @@ ruby '3.4.1'
 
 source "https://rubygems.org"
 
-gem "rails", "~> 8.0.1"
+gem "rails", "~> 8.0.2"
 
 # Use sqlite3 in development and test
 group :development, :test do
