@@ -18,11 +18,11 @@ https://live-chat-app-a022a20a842b.herokuapp.com/
 - vue‑router
 - actioncable
   
-- SQLite（開発環境）
+- SQLite（開発環境）、PostgreSQL（本番環境／Heroku）
 
 
 # 機能一覧
 - ユーザー登録、ログイン機能
 - メッセージ機能
-  - 作成
-  - いいね
+  - 作成機能
+  - いいね機能
